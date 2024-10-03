@@ -1,4 +1,4 @@
-/* Dit is het stylesheet voor de GitHub Classroom Opdracht */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -29,4 +29,40 @@ th, td {
     text-align: left;
 }
 
-/* Student B zal hier extra stijlen toevoegen voor de ongeordende lijst */
+.sidebar { 
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar .navigatie ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .navigatie ul li {
+    margin: 15px 0;
+}
+
+.sidebar .navigatie ul li a {
+    display: block;
+    color: white;  
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sidebar .navigatie ul li a:hover {
+    background-color: #575757;
+}
+/* dit zorgt ervoor dat de main content en de sidebar naast elkaar komen te staan*/
+.main-content { 
+    margin-left: 250px;
+    padding: 20px;
+}
+
